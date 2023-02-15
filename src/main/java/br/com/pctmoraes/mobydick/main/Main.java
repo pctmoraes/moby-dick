@@ -1,6 +1,10 @@
 package main.java.br.com.pctmoraes.mobydick.main;
 
+import main.java.br.com.pctmoraes.mobydick.Baleia;
+import main.java.br.com.pctmoraes.mobydick.Cachalote;
 import main.java.br.com.pctmoraes.mobydick.Marujo;
+import main.java.br.com.pctmoraes.mobydick.MobyDick;
+
 import java.util.concurrent.TimeUnit;
 
 public class Main {
@@ -11,10 +15,7 @@ public class Main {
 
         //TimeUnit.SECONDS.sleep(2);
 
-        System.out.println("Pressione qualquer tecla para continuar...");
-        
-
-
+        //System.out.println("Pressione qualquer tecla para continuar...");
 
 
     }
