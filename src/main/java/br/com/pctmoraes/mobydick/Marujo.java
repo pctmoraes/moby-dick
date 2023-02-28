@@ -7,8 +7,8 @@ public class Marujo extends Pessoa {
 
     public Marujo(String nome, String funcao) {
         super(nome, funcao);
-        if(funcao.toUpperCase(Locale.ROOT) == "MARUJO"){
-            this.hierarquia = 0;
+        if(funcao.toUpperCase().equals("MARUJO")){
+            this.hierarquia = 3;
         }
     }
 
