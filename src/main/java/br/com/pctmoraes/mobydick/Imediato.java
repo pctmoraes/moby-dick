@@ -23,4 +23,8 @@ public class Imediato extends Pessoa{
             System.out.println(this.getNome() +" pensou que gostaria de dar ordens ao "+ funcaoOrdenado + " no entanto, ele não tem poder para tal dentro da hierarquia de um navio baleeiro.");
         }
     }
+
+    public void remar(){
+        System.out.println(this.getNome() +": remem! remem! remem! que suas espinhas partam se necessário, mas remem, marujos!");
+    }
 }

@@ -15,4 +15,8 @@ public class Marujo extends Pessoa {
     public int getHierarquia() {
         return hierarquia;
     }
+
+    public void remar(){
+        System.out.println("Aaahh!!! com certeza minha espinha partirá - pensou "+this.getNome());
+    }
 }
