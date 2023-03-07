@@ -28,5 +28,7 @@ public class Arpoador extends Pessoa{
         System.out.println(this.getNome() +": remando! remando! remando!");
     }
 
-
+    public void atirarArpao(){
+        System.out.println("Neste momento " + this.getNome() + " dispara seu arpão.");
+    }
 }
